@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AppBanHang</string>
+    <string name="app_trangchinh">Trang Chinh</string>
+    <string name="app_sanphammoinhat">Sản Phẩm Mới Nhất</string>
+</resources>
