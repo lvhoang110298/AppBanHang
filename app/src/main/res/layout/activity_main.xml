@@ -15,14 +15,14 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
             <android.support.v7.widget.Toolbar
-                android:id="@+id/toolbarmanhinhchinh"
+                android:id="@+id/toolbar"
                 android:background="#4665ce"
                 app:title="@string/app_trangchinh"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize">
             </android.support.v7.widget.Toolbar>
             <ViewFlipper
-                android:id="@+id/viewflippermanhinhchinh"
+                android:id="@+id/viewflipper"
                 android:layout_width="match_parent"
                 android:layout_height="200dp">
             </ViewFlipper>
@@ -40,7 +40,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/app_sanphammoinhat"/>
                 <android.support.v7.widget.RecyclerView
-                    android:id="@+id/recyclerview"
+                    android:id="@+id/recyclerviewmanhinhchinh"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
@@ -48,7 +48,7 @@
             </LinearLayout>
         </LinearLayout>
         <android.support.design.widget.NavigationView
-            android:id="@+id/navigationviewmanhinhchinh"
+            android:id="@+id/navigationview"
             android:layout_gravity="start"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
